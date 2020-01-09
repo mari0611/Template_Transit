@@ -1,0 +1,190 @@
+html {
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 600px;
+  background-image: url("../img/header.jpg");
+  color: white;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.top > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  text-decoration: none;
+}
+
+.text {
+  text-align: center;
+  margin-top: 150px;
+  line-height: 50px;
+}
+
+.top > a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 22px;
+}
+
+.top > ul > a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.btn {
+  border-radius: 20px;
+  height: 50px;
+  width: 250px;
+  align-self: center;
+}
+
+.seg {
+  height: 600px;
+  background-color: rgba(144, 144, 144, 0.25);
+}
+
+.title {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+
+.seg .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 350px;
+  background-color: white;
+  text-align: center;
+  padding: 4rem 0;
+  border: 1px solid #ccc;
+}
+
+.flex .box > img {
+  height: 100px;
+}
+
+icons {
+  display: flex;
+  height: 200px;
+  padding: 40px;
+}
+
+.icons .lado {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+}
+
+.icons .lado > img {
+  height: 100px;
+}
+
+.icons .lado > p {
+  display: flex;
+}
+
+.lado {
+  font-size: 12px;
+}
+
+.terc .icons {
+  display: flex;
+}
+
+.terceira {
+  text-align: center;
+  height: 200px;
+  padding: 20px;
+}
+
+.blue {
+  height: 600px;
+  background-color: rgb(60, 173, 212);
+  color: white;
+}
+
+.top li {
+  display: flex;
+  margin: 15px;
+}
+
+.titleb {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  color: white;
+  font-size: 18px;
+}
+
+.final {
+  height: 600px;
+  background-color: rgba(41, 40, 40, 0.719);
+  display: flex;
+}
+
+.final .flex {
+  color: rgb(205, 206, 208);
+  display: flex;
+  padding: 80px;
+  line-height: 35px;
+}
+
+.box2 > h4 {
+  font-weight: bold;
+  color: white;
+}
+
+footer {
+  display: flex;
+  color: rgb(133, 133, 133);
+  margin-top: 60px;
+}
+
+.blue .row {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  max-width: 30% !important;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.input2 {
+  max-width: 62% !important;
+  padding: 4rem;
+  text-align: start;
+}
+
+input::placeholder {
+  text-align: initial;
+}
+
+.blue .dark {
+  align-content: center;
+  display: flex;
+}
